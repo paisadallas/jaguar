@@ -1,0 +1,12 @@
+.Head{
+    width: 100%;
+    height: auto;
+    
+}
+
+.Head__center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
