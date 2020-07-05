@@ -1,13 +1,15 @@
 import React from 'react'
 
 import Head from '../components/Head'
-//import '../styles/Inicio.css'
+import ButtonsMenu from '../components/ButtonsMenu'
+import JaguarSite from '../components/JaguarSite'
+
 
 class Inicio extends React.Component{
     render(){
         return(
             <div>
-                <Head/>
+                <JaguarSite/>
             </div>
         )
     }

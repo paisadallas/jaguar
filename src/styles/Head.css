@@ -1,7 +1,8 @@
 .Head{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    background: #fff;
+    padding: 20px;
+    min-height: 260px;
+    position: relative;
 }
 
 .Head__center-image{
@@ -9,13 +10,41 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.Head_container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    width: auto;
+}
+
+
+.Head__background{
+    width: auto;
+    background-color: rgb(233, 8, 233) !important;
+
+}
+
+.Head__nav{
+    display: block;
+    justify-content: center;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
    
 }
 
 .Head__button-center{
     
-    display: flex;
-     justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
    
 }
 
@@ -54,7 +83,7 @@
 .button_4{
     background-color: #088003;
     font-size: 24px;
-    padding: 29px 70px;
+    padding: 29px 50px;
     margin: 0px;
     border: none;
     white-space: nowrap;
